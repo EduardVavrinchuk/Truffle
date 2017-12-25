@@ -1,4 +1,4 @@
-var Ballot = artifact.require("./Ballot.sol");
+var Ballot = artifacts.require("./Ballot.sol");
 
 module.exports = function(deployer, network, accounts) {
 	if(network == "testrpc"){
